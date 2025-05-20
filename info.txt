@@ -1,0 +1,10 @@
+
+1. Instalar Cypress
+npm install cypress --save-dev
+
+
+2. Iniciar proyecto
+npx cypress open
+
+3. Para correr todos los test con CI
+npx cypress run --record --key 827180c4-665b-45ab-b45c-83b0aa1fad2a
