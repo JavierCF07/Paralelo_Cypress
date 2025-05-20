@@ -9,7 +9,7 @@ pipeline {
             parallel {
                 stage('Slave 1') {
                     agent {
-                        label "Agent1_1"
+                        label "Agente1_1"
                     }
                     steps {
                         git url: 'https://github.com/JavierCF07/Paralelo_Cypress.git'
@@ -20,7 +20,7 @@ pipeline {
                 }
                 stage('Slave 2') {
                     agent {
-                        label "Agent1_2"
+                        label "Agente1_2"
                     }
                     steps {
                         git url: 'https://github.com/JavierCF07/Paralelo_Cypress.git'
@@ -31,7 +31,7 @@ pipeline {
                 }
                 stage('Slave 3') {
                     agent {
-                        label "Agent1_3"
+                        label "Agente1_3"
                     }
                     steps {
                         git url: 'https://github.com/JavierCF07/Paralelo_Cypress.git'
@@ -42,7 +42,7 @@ pipeline {
                 }
                 stage('Slave 4') {
                     agent {
-                        label "Agent1_4"
+                        label "Agente1_4"
                     }
                     steps {
                         git url: 'https://github.com/JavierCF07/Paralelo_Cypress.git'
